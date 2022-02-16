@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Utility Classes */
+.btn-primary {
+    font-weight: bold;
+    background: #1ed760;
+    color: #2941ab;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn-primary:hover {
+    background: #2DE26D;
+    cursor: pointer;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+#navbar .navbar-container {
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0; 
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 25px;
+    font-size: 0.9rem;
+}
+
+#navbar .navbar-container ul li:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul li:nth-child(3) {
+    border-right: 1px solid white;
+}
+
+/* Showcase */
+#showcase {
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: #1ed760;
+    background: url(/Projeto-spotify/img/Showcase3.png) center center/cover;
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h2 {
+    font-size: 8rem;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+
+#showcase .showcase-container p {
+    margin: 30px 0;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+/*  Footer */
+
+#footer {
+    background: black;
+    color: white;
+    padding: 90px 0;
+}
+
+#footer .footer-content {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+    margin: 0 40px;
+    list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+    margin: 25px 0;
+    font-size: 0.85rem;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.7rem;
+}
+
+/* Footer Socials */
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 20px;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+}
+
+.socials i:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+/* Footer info */
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.footer-info .footer-info-itens {
+    display: flex;
+    list-style: none;
+    font-size: 0.7rem;
+    color: #919496;
+}
+
+.footer-info .footer-info-itens .footer-info-itens {
+    margin: 0 15px;
+}
+
+.footer-info .footer-info-itens .footer-info-itens:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.footer-info .rights {
+    color: #919496;
+    font-size: 0.75rem;
+}
+
+.footer-info .rights .country {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-info .rights .country:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
